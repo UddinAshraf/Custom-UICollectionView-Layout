@@ -14,6 +14,12 @@
 		901F75AD21B5294E00E9F237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901F75AB21B5294E00E9F237 /* LaunchScreen.storyboard */; };
 		901F75B821B5294E00E9F237 /* HexagonLayaoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F75B721B5294E00E9F237 /* HexagonLayaoutTests.swift */; };
 		901F75C321B5294E00E9F237 /* HexagonLayaoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F75C221B5294E00E9F237 /* HexagonLayaoutUITests.swift */; };
+		901F75D321B52E6C00E9F237 /* CustomCollectionViewlayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F75D221B52E6C00E9F237 /* CustomCollectionViewlayout.swift */; };
+		901F75D721B5539600E9F237 /* HexagonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F75D621B5539600E9F237 /* HexagonCollectionViewCell.swift */; };
+		901F75D921B5543D00E9F237 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F75D821B5543D00E9F237 /* HexagonView.swift */; };
+		90DB4A2521B67249006CC116 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB4A2421B67249006CC116 /* UIColor+Extension.swift */; };
+		90DB4A2721B67267006CC116 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB4A2621B67267006CC116 /* UIView+Extension.swift */; };
+		90DB4A2A21B67456006CC116 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB4A2921B67456006CC116 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		901F759F21B5294D00E9F237 /* HexagonLayaout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexagonLayaout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901F759F21B5294D00E9F237 /* HexagonLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexagonLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		901F75A221B5294D00E9F237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		901F75A421B5294D00E9F237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		901F75A721B5294D00E9F237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		901F75A921B5294E00E9F237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901F75AC21B5294E00E9F237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901F75AE21B5294E00E9F237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		901F75B321B5294E00E9F237 /* HexagonLayaoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexagonLayaoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901F75B321B5294E00E9F237 /* HexagonLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexagonLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901F75B721B5294E00E9F237 /* HexagonLayaoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonLayaoutTests.swift; sourceTree = "<group>"; };
 		901F75B921B5294E00E9F237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		901F75BE21B5294E00E9F237 /* HexagonLayaoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexagonLayaoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901F75BE21B5294E00E9F237 /* HexagonLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexagonLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901F75C221B5294E00E9F237 /* HexagonLayaoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonLayaoutUITests.swift; sourceTree = "<group>"; };
 		901F75C421B5294E00E9F237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901F75D221B52E6C00E9F237 /* CustomCollectionViewlayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewlayout.swift; sourceTree = "<group>"; };
+		901F75D621B5539600E9F237 /* HexagonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonCollectionViewCell.swift; sourceTree = "<group>"; };
+		901F75D821B5543D00E9F237 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		90DB4A2421B67249006CC116 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		90DB4A2621B67267006CC116 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		90DB4A2921B67456006CC116 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +99,9 @@
 		901F75A021B5294D00E9F237 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				901F759F21B5294D00E9F237 /* HexagonLayaout.app */,
-				901F75B321B5294E00E9F237 /* HexagonLayaoutTests.xctest */,
-				901F75BE21B5294E00E9F237 /* HexagonLayaoutUITests.xctest */,
+				901F759F21B5294D00E9F237 /* HexagonLayout.app */,
+				901F75B321B5294E00E9F237 /* HexagonLayoutTests.xctest */,
+				901F75BE21B5294E00E9F237 /* HexagonLayoutUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +109,11 @@
 		901F75A121B5294D00E9F237 /* HexagonLayaout */ = {
 			isa = PBXGroup;
 			children = (
+				90DB4A2821B6743D006CC116 /* Model */,
+				90DB4A2321B67233006CC116 /* Extension */,
+				901F75D421B5535000E9F237 /* App VCs */,
+				901F75D121B52E0500E9F237 /* Views */,
 				901F75A221B5294D00E9F237 /* AppDelegate.swift */,
-				901F75A421B5294D00E9F237 /* ViewController.swift */,
 				901F75A621B5294D00E9F237 /* Main.storyboard */,
 				901F75A921B5294E00E9F237 /* Assets.xcassets */,
 				901F75AB21B5294E00E9F237 /* LaunchScreen.storyboard */,
@@ -125,12 +140,55 @@
 			path = HexagonLayaoutUITests;
 			sourceTree = "<group>";
 		};
+		901F75D121B52E0500E9F237 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				901F75D221B52E6C00E9F237 /* CustomCollectionViewlayout.swift */,
+				901F75D821B5543D00E9F237 /* HexagonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		901F75D421B5535000E9F237 /* App VCs */ = {
+			isa = PBXGroup;
+			children = (
+				901F75A421B5294D00E9F237 /* ViewController.swift */,
+				901F75D521B5535D00E9F237 /* Custom Cell */,
+			);
+			path = "App VCs";
+			sourceTree = "<group>";
+		};
+		901F75D521B5535D00E9F237 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				901F75D621B5539600E9F237 /* HexagonCollectionViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		90DB4A2321B67233006CC116 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90DB4A2421B67249006CC116 /* UIColor+Extension.swift */,
+				90DB4A2621B67267006CC116 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		90DB4A2821B6743D006CC116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90DB4A2921B67456006CC116 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		901F759E21B5294D00E9F237 /* HexagonLayaout */ = {
+		901F759E21B5294D00E9F237 /* HexagonLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 901F75C721B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayaout" */;
+			buildConfigurationList = 901F75C721B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayout" */;
 			buildPhases = (
 				901F759B21B5294D00E9F237 /* Sources */,
 				901F759C21B5294D00E9F237 /* Frameworks */,
@@ -140,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = HexagonLayaout;
+			name = HexagonLayout;
 			productName = HexagonLayaout;
-			productReference = 901F759F21B5294D00E9F237 /* HexagonLayaout.app */;
+			productReference = 901F759F21B5294D00E9F237 /* HexagonLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
-		901F75B221B5294E00E9F237 /* HexagonLayaoutTests */ = {
+		901F75B221B5294E00E9F237 /* HexagonLayoutTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 901F75CA21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayaoutTests" */;
+			buildConfigurationList = 901F75CA21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayoutTests" */;
 			buildPhases = (
 				901F75AF21B5294E00E9F237 /* Sources */,
 				901F75B021B5294E00E9F237 /* Frameworks */,
@@ -158,14 +216,14 @@
 			dependencies = (
 				901F75B521B5294E00E9F237 /* PBXTargetDependency */,
 			);
-			name = HexagonLayaoutTests;
+			name = HexagonLayoutTests;
 			productName = HexagonLayaoutTests;
-			productReference = 901F75B321B5294E00E9F237 /* HexagonLayaoutTests.xctest */;
+			productReference = 901F75B321B5294E00E9F237 /* HexagonLayoutTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		901F75BD21B5294E00E9F237 /* HexagonLayaoutUITests */ = {
+		901F75BD21B5294E00E9F237 /* HexagonLayoutUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 901F75CD21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayaoutUITests" */;
+			buildConfigurationList = 901F75CD21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayoutUITests" */;
 			buildPhases = (
 				901F75BA21B5294E00E9F237 /* Sources */,
 				901F75BB21B5294E00E9F237 /* Frameworks */,
@@ -176,9 +234,9 @@
 			dependencies = (
 				901F75C021B5294E00E9F237 /* PBXTargetDependency */,
 			);
-			name = HexagonLayaoutUITests;
+			name = HexagonLayoutUITests;
 			productName = HexagonLayaoutUITests;
-			productReference = 901F75BE21B5294E00E9F237 /* HexagonLayaoutUITests.xctest */;
+			productReference = 901F75BE21B5294E00E9F237 /* HexagonLayoutUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 901F759A21B5294D00E9F237 /* Build configuration list for PBXProject "HexagonLayaout" */;
+			buildConfigurationList = 901F759A21B5294D00E9F237 /* Build configuration list for PBXProject "HexagonLayout" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +275,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				901F759E21B5294D00E9F237 /* HexagonLayaout */,
-				901F75B221B5294E00E9F237 /* HexagonLayaoutTests */,
-				901F75BD21B5294E00E9F237 /* HexagonLayaoutUITests */,
+				901F759E21B5294D00E9F237 /* HexagonLayout */,
+				901F75B221B5294E00E9F237 /* HexagonLayoutTests */,
+				901F75BD21B5294E00E9F237 /* HexagonLayoutUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901F75D321B52E6C00E9F237 /* CustomCollectionViewlayout.swift in Sources */,
+				90DB4A2721B67267006CC116 /* UIView+Extension.swift in Sources */,
+				901F75D921B5543D00E9F237 /* HexagonView.swift in Sources */,
 				901F75A521B5294D00E9F237 /* ViewController.swift in Sources */,
+				90DB4A2521B67249006CC116 /* UIColor+Extension.swift in Sources */,
 				901F75A321B5294D00E9F237 /* AppDelegate.swift in Sources */,
+				901F75D721B5539600E9F237 /* HexagonCollectionViewCell.swift in Sources */,
+				90DB4A2A21B67456006CC116 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +346,12 @@
 /* Begin PBXTargetDependency section */
 		901F75B521B5294E00E9F237 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 901F759E21B5294D00E9F237 /* HexagonLayaout */;
+			target = 901F759E21B5294D00E9F237 /* HexagonLayout */;
 			targetProxy = 901F75B421B5294E00E9F237 /* PBXContainerItemProxy */;
 		};
 		901F75C021B5294E00E9F237 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 901F759E21B5294D00E9F237 /* HexagonLayaout */;
+			target = 901F759E21B5294D00E9F237 /* HexagonLayout */;
 			targetProxy = 901F75BF21B5294E00E9F237 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexagonLayaout.app/HexagonLayaout";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexagonLayout.app/HexagonLayout";
 			};
 			name = Debug;
 		};
@@ -498,7 +562,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexagonLayaout.app/HexagonLayaout";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexagonLayout.app/HexagonLayout";
 			};
 			name = Release;
 		};
@@ -543,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		901F759A21B5294D00E9F237 /* Build configuration list for PBXProject "HexagonLayaout" */ = {
+		901F759A21B5294D00E9F237 /* Build configuration list for PBXProject "HexagonLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				901F75C521B5294E00E9F237 /* Debug */,
@@ -552,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		901F75C721B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayaout" */ = {
+		901F75C721B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				901F75C821B5294E00E9F237 /* Debug */,
@@ -561,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		901F75CA21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayaoutTests" */ = {
+		901F75CA21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				901F75CB21B5294E00E9F237 /* Debug */,
@@ -570,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		901F75CD21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayaoutUITests" */ = {
+		901F75CD21B5294E00E9F237 /* Build configuration list for PBXNativeTarget "HexagonLayoutUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				901F75CE21B5294E00E9F237 /* Debug */,
